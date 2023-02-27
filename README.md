@@ -63,6 +63,8 @@ nyc_water = pandas.read_csv(‘link_to_raw_copy of data file in your Github Repo
 # verify you have an ndarray object 
 type(nyc_water) 
 ____________________________________________ 
+
+
  
 This code will read the contents of the provided data file into a NumPy ndarray object. Execute the code within your 
 Jupyter Notebook. If successful, the output of the type(nyc_water) function should be: numpy.ndarray 
