@@ -1,6 +1,7 @@
 AIM 5001 Module 6 Assignment (100 Points) 
  
-Our Module 6 Assignment makes use of the functionality provided by Python’s NumPy package.   
+Our Module 6 Assignment makes use of the functionality provided by Python’s NumPy package. 
+
 -------------------------------------------------------------------------------------------------------------------------------- 
 1. (10 Points) Write a Python/NumPy code block that creates a new array containing only one instance of any item that 
 appears within all three of these arrays: 
