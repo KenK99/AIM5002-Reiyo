@@ -48,23 +48,6 @@ load it into a Pandas dataframe using the code snippet provided below.  ** Pleas
 the file you pushed to your online GitHub repository. ** 
 Copy the following small Python code snippet into your Jupyter Notebook: 
 ____________________________________________ 
-import pandas 
-import numpy as np 
- 
-# supress scientific notation 
-np.set_printoptions(suppress = True) 
- 
-# read the data file from GitHub and convert to a NumPy ndarray object 
-# be sure to replace the ‘link_to_raw_copy of data file in your Github Repository’ placeholder shown below 
-# with a link to the “raw” version of the file you pushed to your online GitHub repository 
- 
-nyc_water = pandas.read_csv(‘link_to_raw_copy of data file in your Github Repository').to_numpy() 
- 
-# verify you have an ndarray object 
-type(nyc_water) 
-____________________________________________ 
-
-
  
 This code will read the contents of the provided data file into a NumPy ndarray object. Execute the code within your 
 Jupyter Notebook. If successful, the output of the type(nyc_water) function should be: numpy.ndarray 
